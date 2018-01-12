@@ -1,0 +1,18 @@
+﻿<Window x:Class="BankingClientV1.ReceiptWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankingClientV1"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="ReceiptWindow" Height="326.866" Width="633.582" WindowStyle="None" ResizeMode="NoResize">
+    <Grid Background="#E0E0E0E0">
+        <Label Content="Wilt u een bon?" HorizontalAlignment="Center" Margin="0,0,0,50" VerticalAlignment="Center" Foreground="#FF313131" FontSize="20" FontFamily="Segoe UI Light" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button Content="1 - JA" Margin="0,100,150,0" Height="50" VerticalAlignment="Center" Width="90" FontFamily="Segoe UI Light" Background="#FAFAFAFA" BorderBrush="#F5F5F5F5" Foreground="#FF313131" HorizontalAlignment="Center"/>
+        <Button Content="2 - NEE" Margin="150,100,0,0" Height="50" VerticalAlignment="Center" Width="90" FontFamily="Segoe UI Light" Background="#FAFAFAFA" BorderBrush="#F5F5F5F5" Foreground="#FF313131" HorizontalAlignment="Center"/>
+        <Button Content="C Terugkeren" Click="Button_Click1" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90" Margin="0,0,110,10" BorderBrush="#F5F5F5F5" Background="#FAFAFAFA" Foreground="#FF313131" FontFamily="Segoe UI Light"/>
+        <Button Content="D Afbreken" Margin="0,0,10,10" Click="Button_Click" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="90" FontFamily="Segoe UI Light" Background="#FAFAFAFA" BorderBrush="#F5F5F5F5" Foreground="#FF313131"/>
+
+    </Grid>
+</Window>

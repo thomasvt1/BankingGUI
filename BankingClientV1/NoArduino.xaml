@@ -1,0 +1,18 @@
+﻿<Window x:Class="BankingClientV1.NoArduino"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BankingClientV1"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="NoArduino" Height="326.866" Width="633.582" WindowStyle="None" ResizeMode="NoResize">
+    <Grid Background="#E0E0E0E0">
+        <Label x:Name="buitenwerking" Content="B u i t e n  w e r k i n g" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="40" UseLayoutRounding="False" Foreground="#FF313131" FontFamily="Segoe UI Light"/>
+        <Label Content="Het spijt ons" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF313131" FontFamily="Segoe UI Light"/>
+        <Label Content="Probleem met verbinden inputapparaat" HorizontalAlignment="Right" Margin="0,0,3,10" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="#FF313131" FontFamily="Segoe UI Light"/>
+        <Button x:Name="button" Content="FORCE QUIT" HorizontalAlignment="Center" Margin="0,0,0,150" VerticalAlignment="Center" Width="387" Height="30" Click="Button_Click" VerticalContentAlignment="Center"/>
+        <!-- <Border Name="buitenwerkingborder" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Center" Height="63.3333333333333" Margin="0" VerticalAlignment="Center" Width="407.333333333333" Padding="0"/> -->
+
+    </Grid>
+</Window>
